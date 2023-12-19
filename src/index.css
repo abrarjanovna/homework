@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  margin-left: 630px;
+  margin-top: 140px;
+}
+.main {
+  width: 275px;
+  height: 220px;
+  border-radius: 10px 50px 10px 50px;
+}
+.box {
+  display: flex;
+  margin-top: 25px;
+  gap: 25px;
+}
+p {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.btn {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 4px;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.red {
+  border-radius: 5px 10px;
+  background-color: red;
+}
+.green {
+  border-radius: 10px;
+  background-color: green;
+}
+.blue {
+  border-radius: 10px 5px;
+  background-color: blue;
+}
